@@ -21,6 +21,12 @@ public function registerProjectBundles() {
 }
 ```
 
+## Clean cache 
+first go to your akeneo install folder
+php bin/console cache:clear --no-warmup --env=prod
+
+Niji\AutoAttributeOptionsSetterBundle\AutoAttributeOptionsSetterBundle
+
 ## Credits
 
 This bundle is brought to you by Niji - http://www.niji.fr.
