@@ -22,9 +22,10 @@ public function registerProjectBundles() {
 ```
 
 ## Clean cache 
-first go to your akeneo install folder
+- first go to your akeneo install folder
 `php bin/console cache:clear --no-warmup --env=prod`
 
+- Clean your browser cache, navigat to system -> system information, under registered bundles now you should see: 
 Niji\AutoAttributeOptionsSetterBundle\AutoAttributeOptionsSetterBundle
 
 ## Credits
